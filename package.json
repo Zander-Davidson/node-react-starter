@@ -1,0 +1,46 @@
+{
+  "name": "APP_NAME",
+  "version": "1.0.0",
+  "description": "APP_DESCRIPTION",
+  "engines": {
+    "npm": "6.12.1",
+    "node": "12.13.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server",
+    "start": "node server",
+    "build": "cd react-ui/ && npm install && npm run build"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zander-Davidson/node-js-heroku-starter"
+  },
+  "author": "{{AUTHOR_NAME}}",
+  "license": "ISC",
+  "cacheDirectories": [
+    "node_modules",
+    "react-ui/node_modules"
+  ],
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "heroku-ssl-redirect": "^0.1.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "os": "^0.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
