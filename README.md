@@ -14,3 +14,4 @@ cd ui
 npm install
 npm start
 ```
+5. To deploy to Heroku, link your app to the GitHub repo and point to master branch
